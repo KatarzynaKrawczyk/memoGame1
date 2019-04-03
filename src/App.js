@@ -1,24 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import fallingStar from './fallingStar.png';
 import './App.css';
 
 class App extends Component {
+    componentDidMount() {
+
+    }
   render() {
     return (
+      
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h1>
+           MemoGame
+          </h1>
+          <div class="container">
+            <div class="row p-2">
+              <div class="col-sm" className="card m-3">
+                <img src={fallingStar} className="flip" alt="fallingStar"/>
+              </div>
+              <div class="col-sm" className="card m-3">
+                <img src={fallingStar} className="flip" alt="fallingStar"/>
+              </div>
+              <div class="col-sm" className="card m-3">
+                <img src={fallingStar} className="flip" alt="fallingStar"/>
+              </div>
+            </div>
+          </div> 
         </header>
       </div>
     );
