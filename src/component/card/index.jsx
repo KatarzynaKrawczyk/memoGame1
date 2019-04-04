@@ -1,13 +1,13 @@
-import React from 'react'
+/*import React from 'react'
 import PropTypes from 'prop-types'
 
 import './style.css'
 
 export default funcion Card ({ id, back, front, flipped, handleClick }) {
     return <div
-    className={'flip-container' ${flipped ? 'flipped' : '' }'}
-    style={{width, height}}
-    onClick={() => handleClick(id)}
+        className={'flip-container' ${flipped ? 'flipped' : '' }'}
+        style={{width, height}}
+        onClick={() => handleClick(id)}
     >
     <div className="flipper">
         <img
@@ -25,4 +25,5 @@ Card.propTypes = {
     front: PropTypes.string.isRequired;
     height: PropTypes.number.isRequired;
     width: PropTypes.number.isRequired;
-}
+};
+*/

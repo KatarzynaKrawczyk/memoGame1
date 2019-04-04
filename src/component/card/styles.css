@@ -1,7 +1,4 @@
-
-
-
-.flip-container.flipped .flipper{
+.flip-container.flipped .flipper {
     transform: rotateY(180deg); 
 }
 
