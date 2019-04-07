@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
-import fallingStar from './fallingStar.png';
 import './App.css';
-//import Card './component/card';
-import Game from './container/Game'
+import GameContainer from './container/GameContainer'
 
 class App extends Component {
   render() {
     return (
       <>
-        <header className="App-header">
+       <header className="App-header">
           <h1>MemoGame</h1>
-          <div class="container">
-            <div class="row">
-              <Game/>
-              <Game/>
-              <Game/>
-              <Game/>
+          <div className="container">
+            <div className="row">
+              <GameContainer name = "one"/>
+              <GameContainer name = "thumb"/>
+              <GameContainer name = "smile"/>
+              <GameContainer name = "home"/>
             </div>
           </div>  
        </header>
