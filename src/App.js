@@ -11,9 +11,6 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <GameContainer name = "one"/>
-              <GameContainer name = "thumb"/>
-              <GameContainer name = "smile"/>
-              <GameContainer name = "home"/>
             </div>
           </div>  
        </header>
