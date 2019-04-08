@@ -4,9 +4,9 @@ import PlayCard from "./PlayCard";
 class ListItem extends React.Component {
     render() {
         return (
-            <>
+            <>  
                 {this.props.name}
-                <PlayCard handleChange={this.props.handleChange} text="listitsm"/>
+                <PlayCard handleChange={this.props.handleChange} text="listitem"/>
             </>
 
         )
